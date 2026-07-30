@@ -1,0 +1,15 @@
+{
+  "type": "Wall",
+  "name": "Стена Хаоса",
+  "description": "Стена из укрепленного Хаосита. Искажает траекторию летящих снарядов, заставляя их рикошетить обратно во врагов.",
+  "health": 800,
+  "size": 1,
+  "chanceDeflect": 45.0,
+  "flashHit": true,
+  "requirements": [
+    {"item": "chaosite", "amount": 6},
+    {"item": "lead", "amount": 15}
+  ],
+  "category": "defense",
+  "research": "copper-wall"
+}
