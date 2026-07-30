@@ -1,0 +1,10 @@
+{
+  "name": "ai-entropy-mod",
+  "displayName": "[purple]Entropy & Chaos Mod[]",
+  "author": "Google Gemeni",
+  "description": "Мод, созданный искусственным интеллектом. Добавляет аномальные технологии, нестабильные материалы и хаотичное оружие.",
+  "version": "1.0",
+  "minGameVersion": "146",
+  "hidden": false,
+  "repo": "HamsterHat/AI-mod"
+}
