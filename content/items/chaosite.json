@@ -1,0 +1,11 @@
+{
+  "type": "item",
+  "name": "Хаосит",
+  "description": "Кристаллизованная чистая энтропия. Крайне нестабилен, но выделяет колоссальное количество энергии.",
+  "cost": 3.5,
+  "explosiveness": 1.2,
+  "flammability": 0.8,
+  "radioactivity": 1.5,
+  "charge": 2.0,
+  "color": "a45ee5"
+}
