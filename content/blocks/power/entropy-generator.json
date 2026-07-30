@@ -1,0 +1,32 @@
+{
+  "type": "ImpactReactor",
+  "name": "Генератор Нестабильности",
+  "description": "Сжигает Хаосит, высвобождая энергию искривления пространства. Требует постоянного охлаждения водой, иначе аннигилирует половину вашей базы.",
+  "size": 2,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "itemCapacity": 10,
+  "liquidCapacity": 30,
+  "powerProduction": 75.0,
+  "itemDuration": 120.0,
+  "consumes": {
+    "items": {
+      "items": [
+        {"item": "chaosite", "amount": 1}
+      ]
+    },
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.25
+    }
+  },
+  "requirements": [
+    {"item": "copper", "amount": 200},
+    {"item": "lead", "amount": 120},
+    {"item": "silicon", "amount": 80},
+    {"item": "chaosite", "amount": 20}
+  ],
+  "category": "power",
+  "research": "entropy-extractor"
+}
