@@ -1,0 +1,27 @@
+{
+  "type": "Reconstructor",
+  "name": "Хаотичный Реконструктор",
+  "description": "Пересобирает стандартных дронов, заменяя их двигатели на квантовые ядра, работающие на Хаосите.",
+  "size": 3,
+  "hasPower": true,
+  "hasItems": true,
+  "constructTime": 240.0,
+  "upgrades": [
+    ["flare", "supernova"]
+  ],
+  "consumes": {
+    "power": 3.0,
+    "items": [
+      {"item": "silicon", "amount": 25},
+      {"item": "chaosite", "amount": 10}
+    ]
+  },
+  "requirements": [
+    {"item": "copper", "amount": 200},
+    {"item": "lead", "amount": 150},
+    {"item": "silicon", "amount": 90},
+    {"item": "chaosite", "amount": 40}
+  ],
+  "category": "units",
+  "research": "additive-reconstructor"
+}
