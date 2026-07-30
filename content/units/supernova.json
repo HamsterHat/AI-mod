@@ -1,0 +1,36 @@
+{
+  "type": "flying",
+  "name": "Сверхновая",
+  "description": "Летающий дрон из чистой энергии. Устремляется к вражеским целям и детонирует, создавая мощную аномальную вспышку.",
+  "speed": 4.5,
+  "accel": 0.1,
+  "drag": 0.05,
+  "health": 180,
+  "hitSize": 9,
+  "engineSize": 2.5,
+  "engineOffset": 6.5,
+  "flying": true,
+  "circleTarget": false,
+  "faceTarget": true,
+  "aiVelocity": true,
+  "weapons": [
+    {
+      "name": "chaos",
+      "reload": 10.0,
+      "shootCone": 180,
+      "mirror": false,
+      "x": 0,
+      "y": 0,
+      "shootOnDeath": true,
+      "bullet": {
+        "type": "ExplosionBulletType",
+        "killShooter": true,
+        "damage": 0,
+        "splashDamage": 350,
+        "splashDamageRadius": 64,
+        "killShooter": true
+      }
+    }
+  ],
+  "research": "chaos-reconstructor"
+}
